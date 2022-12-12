@@ -17,13 +17,9 @@ for (let index = 0; index < nombre.length; index++) {
 }// for index
 console.log(letra, contFinal);
 
-function CharAtCadena(cadena) {
-    cadena = cadena.sort;
-    /* for (let i = 0; i < cadena.length; i++) {
-        for (let j = 0; j < cadena.length; j++) {
-            if ( cadena[i] == cadena[j+1] ) {
-                return cadena[i];
-            }
-        }        
-    } */
+
+function InvertirCadena(cadena){
+        for (let j = cadena.length; j >=0 ; j--) {
+            console.log(cadena[j]);
+        }
 }
