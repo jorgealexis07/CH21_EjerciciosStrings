@@ -35,5 +35,14 @@ function reves(str){
     return tmpStr;
 }//reves
 
+function Espalindromo(str){
+    if (str.toUpperCase() == reves(str).toUpperCase()) {
+        return `La palabra ${str} SI es palindromo`;
+    } 
+    else{
+        return `La palabra ${str} NO Es palindromo`;
+    }
+}
+
 
 
