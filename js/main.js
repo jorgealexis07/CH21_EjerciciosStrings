@@ -19,7 +19,21 @@ console.log(letra, contFinal);
 
 
 function InvertirCadena(cadena){
-        for (let j = cadena.length; j >=0 ; j--) {
-            console.log(cadena[j]);
-        }
+    let cad_inversa = [];
+    for (let j = cadena.length-1; j >=0 ; j--) {
+        console.log(cadena[j]);
+
+    }
+    console.log(cad_inversa);
 }
+
+function reves(str){
+    let tmpStr = "";
+    for (let indice = str.length-1; indice >= 0; indice--) {
+        tmpStr += str.charAt(indice);
+    }//for indice
+    return tmpStr;
+}//reves
+
+
+
