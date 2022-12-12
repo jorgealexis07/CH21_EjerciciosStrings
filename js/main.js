@@ -37,10 +37,10 @@ function reves(str){
 
 function Espalindromo(str){
     if (str.toUpperCase() == reves(str).toUpperCase()) {
-        return `La palabra ${str} SI es palindromo`;
+        return true `La palabra ${str} SI es palindromo` ;
     } 
     else{
-        return `La palabra ${str} NO Es palindromo`;
+        return false `La palabra ${str} NO Es palindromo` ;
     }
 }
 
